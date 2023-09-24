@@ -1,22 +1,40 @@
-# EmberAIBot
+# EmberAIScheduler
 
-This is the EmberAIBot project.
+EmberAIBot is a terminal-based scheduler that provides a convenient and efficient way to organize and schedule your tasks and appointments. It is designed to help you efficiently manage your tasks and appointments.
 
 ## Installation
 
-To install the project, follow these steps:
+To install EmberAIScheduler, please follow the instructions below:
 
-1. Clone the repository
-2. Install the dependencies
-3. Set up the environment variables
+1. Clone the repository:
+   ```
+   $ git clone https://github.com/your-username/EmberAIScheduler.git
+   $ cd EmberAIBot
+   ```
+2. Install the dependencies:
+   ```
+   $ pip install -r requirements.txt
+   ```
 
 ## Usage
 
-To use the project, follow these steps:
+To use EmberAIScheduler, run the following command:
 
-1. Run the main script
-2. Follow the instructions
+```shell
+$ python scheduler.py
+```
+
+Follow the instructions provided by the scheduler to interact with the scheduler and manage your tasks and appointments.
+
+## Features
+
+- Efficient task and appointment management
+- Advanced task scheduling and organization
+- Automated reminder notifications
+- Flexible priority and deadline management
+- Support for recurring tasks and appointments
+- Seamless calendar integration
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
