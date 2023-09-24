@@ -7,6 +7,11 @@ from sklearn.linear_model import LinearRegression
 # Load the dataset
 data = pd.read_csv('data.csv')
 
+# Check if the dataset has at least two samples
+if len(data) < 2:
+    print('Error: Insufficient data to calculate the model score.')
+    exit()
+
 # Split the dataset into features and target
 X = data[['feature1', 'feature2']]
 y = data['target']
