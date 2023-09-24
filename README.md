@@ -1,23 +1,22 @@
 # EmberAIBot
 
-EmberAIBot is an AI-powered email processing bot.
+This is the EmberAIBot project.
 
 ## Installation
 
+To install the project, follow these steps:
+
 1. Clone the repository
-2. Install the required dependencies using `pip install -r requirements.txt`
+2. Install the dependencies
+3. Set up the environment variables
 
 ## Usage
 
-1. Run the bot using `python EmberAIBot.py`
-2. Send an email to the bot's email address
-3. The bot will process the email and generate a response
+To use the project, follow these steps:
 
-## Testing
+1. Run the main script
+2. Follow the instructions
 
-To run the tests, use the following command:
+## License
 
-```
-pytest
-```
-# sarascheduler
+This project is licensed under the MIT License.
